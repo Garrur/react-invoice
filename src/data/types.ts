@@ -19,6 +19,8 @@ export const TInvoice = z.object({
   logo: z.string(),
   footer:z.string(),
   logoWidth: z.number(),
+  sign:z.string(),
+  signWidth: z.number(),
   title: z.string(),
   companyName: z.string(),
   name: z.string(),
